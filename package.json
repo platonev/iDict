@@ -1,0 +1,12 @@
+{
+  "name": "iDict",
+  "version": "0.0.1",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron src/main.js"
+  },
+  "author": "Platone Wang",
+  "dependencies": {
+    "electron-prebuilt": "^1.2.7"
+  }
+}

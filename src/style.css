@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: #000;
+    background-color: #fff;
+}
+
+.header {
+    background-color: #E8E8E8;
+    position: fixed;
+    padding-top: 8px;
+    width: 100%;
+}
+
+.back_forward_button {
+    float: left;
+}
+
+.float_fix:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.h_list {
+    display: inline;
+    list-style-position: inside;
+    border: 1px solid;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.h_list a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    padding-left: 8px;
+}
+
+.content div {
+    padding-top: 56px;
+}
+
+.content div div {
+    padding-top: 0;
+}
+
+#search_input {
+    float: right;
+}
