@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+li {
+    list-style: none;
+}
+
 html {
     color: #000;
     background-color: #fff;
@@ -51,6 +55,29 @@ html {
     padding-top: 0;
 }
 
-#search_input {
-    float: right;
+#search {
+    position: absolute;
+    top: 8px;
+    left: 70%;
+    width: 28%;
 }
+
+#search_input {
+    width: 100%;
+}
+
+#suggest {
+    width: 100%;
+    background-color: #E8E8E8;
+    border-width: 0 2px 2px 2px;
+    border-style: solid;
+    border-color: #D0D0D0;
+}
+
+.item {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #D8D8D8;
+}
+
+

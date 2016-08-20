@@ -8,19 +8,25 @@
 <body>
 <div class="header">
     <div class="float_fix">
-        <input id="search_input" class="float_fix" type="text">
-        <button id="back" class="back_forward_button float_fix">
+        <button id="back" class="back_forward_button">
             <img src="back.png">
         </button>
-        <button id="forward" class="back_forward_button float_fix">
+        <button id="forward" class="back_forward_button">
             <img src="forward.png">
         </button>
     </div>
     <div>
         <ul>
-            <li class="h_list"><a href="#ee" >英英释义</a></li>
+            <li class="h_list"><a href="#ee">英英释义</a></li>
             <li class="h_list"><a href="#collins">柯林斯英汉双解大辞典</a></li>
         </ul>
+    </div>
+    <div id="search">
+        <input id="search_input" type="text">
+        <div id="suggest">
+            <ul id="suggest_list">
+            </ul>
+        </div>
     </div>
 </div>
 <div class="content">
