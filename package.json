@@ -7,6 +7,6 @@
   },
   "author": "Platone Wang",
   "dependencies": {
-    "electron-prebuilt": "^1.2.7"
+    "electron": "^1.2.7"
   }
 }
