@@ -78,6 +78,9 @@ html {
     border-width: 0 0 1px 0;
     border-style: solid;
     border-color: #D8D8D8;
+    cursor: pointer;
 }
 
-
+.item:hover {
+    background-color: #D8D8D8;
+}
