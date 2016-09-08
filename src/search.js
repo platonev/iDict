@@ -99,6 +99,7 @@ document.onreadystatechange = function () {
             if (e.keyCode == 13) {
                 document.getElementById('suggest_list').innerHTML = '';
                 search(document.getElementById('search_input').value);
+                document.activeElement.blur();
             } else {
                 suggest();
             }
