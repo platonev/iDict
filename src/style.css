@@ -48,7 +48,7 @@ html {
 }
 
 .content div {
-    padding-top: 56px;
+    padding-top: 80px;
 }
 
 .content div div {
@@ -83,4 +83,11 @@ html {
 
 .item:hover {
     background-color: #D8D8D8;
+}
+
+.dictvoice {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("./dict_pronounce_icon_normal.png");
 }
