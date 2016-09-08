@@ -10,8 +10,6 @@ function search(word) {
             var english, america;
             var hasEnglish, hasAmerica;
 
-            if (phoneticRequest.responseText)
-
             for (var i = 0; i < items.length; i++) {
                 if (items[i].getAttribute('class') == 'phonetic') {
                     if (english === undefined) {
