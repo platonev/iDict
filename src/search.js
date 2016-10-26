@@ -21,6 +21,8 @@ function search(word) {
             }
 
             document.getElementById('phonetic').innerHTML = '<span>英</span><span class="phonetic" id="english">' + english + '</span><span>美</span><span class="phonetic" id="america">' + america + '</span>';
+
+            document.getElementById('ec').innerHTML = res.getElementById('ec').innerHTML.substring(res.getElementById('ec').innerHTML.indexOf('</h2>') + 5);
         }
     }
     phoneticRequest.send();
