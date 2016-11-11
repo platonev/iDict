@@ -11,6 +11,7 @@ let mainWindow
 function createWindow () {
     // Create the browser window.
     mainWindow = new BrowserWindow({width: 600, height: 400, resizable: true, icon: __dirname + '../assets/icon.png'})
+    mainWindow.webContents.setUserAgent("Mozilla/5.0 (Linux; Android 4.0.4) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19")
 
     // and load the index.html of the app.
     mainWindow.loadURL(`file://${__dirname}/index.html`)
